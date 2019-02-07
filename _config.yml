@@ -3,9 +3,9 @@ title: Ray's Remedy
 description: make physicians' lives easier...
 url: "http://www.jacoporabolini.com/emerald"
 author:
-  name: "JeRui Chang"
-  email: "jrchang612@gmail.com"
-  url: "https://jrchang612.github.io/blog"
+  name: "Jacopo Rabolini"
+  email: "hello@jacoporabolini.com"
+  url: "http://www.jacoporabolini.com"
 
 # Build settings
 baseurl: /blog # Change this to your relative path (ex: /blog/), or leave just a /
