@@ -1,3 +1,5 @@
+```html
+<!DOCTYPE html>
 <html><head><style>
 html, body {
     padding: 5px;
@@ -393,3 +395,4 @@ function CXRRoutine(){
 
 </body>
 </html>
+```
