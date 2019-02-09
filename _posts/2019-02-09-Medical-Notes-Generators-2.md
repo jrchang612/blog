@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html><head><style>
 html, body {
     padding: 5px;
@@ -29,15 +28,13 @@ input, p{
 #divCXR {
    background-color: #b7e3a8
 }
-        </style></head>
+</style></head>
 <body>
 <div id="div0">
     <h1>Medical Notes Generator</h1>
     <h3>make physicians' lives easier...</h3>
     <form name="MNgenerator">
-    <table id =”display”><tr><td colspan="10">
     <textarea rows="20" cols="100" name="display" id="display"></textarea>
-    </td></tr></table>
     </form>
 </div><p>
 <div id="div1">
@@ -150,7 +147,7 @@ input, p{
 </div>
 <!--Image showed...-->
 <div id="divCXR">
-<button onclick="CXRRoutine()" id="CXRRoutine">Generate Routine CXR report on</button><input type="text" size=15 id="DateCXR" placeholder="e.g. 2019/02/08">
+<button onclick="CXRRoutine()" id="CXRRoutine">Generate Routine CXR report on</button><input type="text" size="15" id="DateCXR" placeholder="e.g. 2019/02/08">
 </div>
 <div id="divImp">
 <!--Under the impression of...-->
@@ -404,6 +401,5 @@ function CXRRoutine(){
   display.value += par5
 }
 </script>
-
 </body>
 </html>
