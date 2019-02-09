@@ -148,9 +148,9 @@ input, p{
 <!--clear button-->
 <input type="button" id="clear" name="clear" value="CLEAR" onclick="MNgenerator.display.value = ''"><br>
 
-<button onclick="Add1()" id="Add1">Add1</button></br >
-<button onclick="Add2()" id="Add2">Add2</button></br >
-<button onclick="Rmv1()" id="Rmv">Rmv</button></br >
+<button onclick="Add1()" id="Add1">Add1</button><br>
+<button onclick="Add2()" id="Add2">Add2</button><br>
+<button onclick="Rmv1()" id="Rmv">Rmv</button><br>
 
 <script>
 count = 0
