@@ -42,18 +42,18 @@ input, p{
 </div><p>
 <div id="div1">
 <!--This is a ...-->
-<button onclick="ThisIs()" id="ThisIs">This is</button><p>a</p><input type="text" id=age placeholder="e.g. 35y/o"><select id=gender onchange="sex()"><option value=" man ">man</option><option value=" woman ">woman</option></select><p>with</p><select id=underlying onchange="UnderlyingBox()"><option value="no known underlying disease. ">no known underlying disease.</option><option value="history of:">history of:</option></select></div>
+<button onclick="ThisIs()" id="ThisIs">This is</button><p>a</p><input type="text" id="age" placeholder="e.g. 35y/o"><select id="gender" onchange="sex()"><option value=" man ">man</option><option value=" woman ">woman</option></select><p>with</p><select id="underlying" onchange="UnderlyingBox()"><option value="no known underlying disease. ">no known underlying disease.</option><option value="history of:">history of:</option></select></div>
 <div id="div2">
 <!--This time, ...-->
-<button onclick="ThisTime()" id="ThisTime">This time, </button><input type="text" size="50" id=S/S placeholder="e.g. severe headache"><p>was noted</p><select id=sinceFor><option value="since ">since</option><option value="for ">for</option></select><input type="text" size="20" id=duration1><p>.</p>
+<button onclick="ThisTime()" id="ThisTime">This time, </button><input type="text" size="50" id="S/S" placeholder="e.g. severe headache"><p>was noted</p><select id="sinceFor"><option value="since ">since</option><option value="for ">for</option></select><input type="text" size="20" id="duration1"><p>.</p>
 </div>
 <div id="div3">
 <!--OPD-->
-<button onclick="OPD()" id="OPD">Therefore, </button><select id=heShe3><option value="he ">he</option><option value="she ">she</option></select><p>visited Dr.</p><input type="text" id="DrName" size=10><p>'s OPD on</p><input type="text" id="Date2" placeholder="e.g. 2019/02"><p>.</p>
+<button onclick="OPD()" id="OPD">Therefore, </button><select id="heShe3"><option value="he ">he</option><option value="she ">she</option></select><p>visited Dr.</p><input type="text" id="DrName" size="10"><p>'s OPD on</p><input type="text" id="Date2" placeholder="e.g. 2019/02"><p>.</p>
 </div>
 <div id="div4">
 <!--ER-->
-<button onclick="ER()" id="ER">Therefore, </button><select id=heShe1><option value="he ">he</option><option value="she ">she</option></select><select id=sentVisit><option value="was sent to our ER on ">was sent to our ER on</option><option value="visited our ER on ">visited our ER on</option></select><input type="text" id="Date1" placeholder="e.g. 2019/02/09 13:30"><p>. Upon arrival, </p><select id=hisHer1><option value="his ">his</option><option value="her ">her</option></select><p>vital signs showed</p><input type="text" size="40" id=vitalsInp placeholder="e.g. tachycardia and hypotension"><p> (T/P/R: </p><input type="text" size="10" id=TPR placeholder="36.5/110/18"><p>, BP:</p><input type="text" size="6" id=BP placeholder="100/60"><p>, Sat:</p><input type="text" size="15" id=Sat placeholder="99%(RA)"><p>).</p>
+<button onclick="ER()" id="ER">Therefore, </button><select id="heShe1"><option value="he ">he</option><option value="she ">she</option></select><select id="sentVisit"><option value="was sent to our ER on ">was sent to our ER on</option><option value="visited our ER on ">visited our ER on</option></select><input type="text" id="Date1" placeholder="e.g. 2019/02/09 13:30"><p>. Upon arrival, </p><select id="hisHer1"><option value="his ">his</option><option value="her ">her</option></select><p>vital signs showed</p><input type="text" size="40" id="vitalsInp" placeholder="e.g. tachycardia and hypotension"><p> (T/P/R: </p><input type="text" size="10" id="TPR" placeholder="36.5/110/18"><p>, BP:</p><input type="text" size="6" id="BP" placeholder="100/60"><p>, Sat:</p><input type="text" size="15" id="Sat" placeholder="99%(RA)"><p>).</p>
 </div>
 <div id="div5">
 <!--Physical examinations showed...-->
@@ -61,7 +61,7 @@ input, p{
 </div>
 <div id="div6">
 <!--ABG showed...-->
-<button onclick="ABG()" id="ABG">Gas: </button><select id=ABGVBG><option value="ABG ">ABG</option><option value="VBG ">VBG</option></select>showed<input type="text" id="GasResult" size="50" placeholder="e.g. profound metabolic acidosis with respiratory compensation">(pH/pCO2/pO2/HCO3/BE: <input type="text" id="GasData" size="18" placeholder="7.40/40/95/24/0">)<p>.</p><button onclick="GasInt()" id="GasInt">AutoInterpret</button>
+<button onclick="ABG()" id="ABG">Gas: </button><select id="ABGVBG"><option value="ABG ">ABG</option><option value="VBG ">VBG</option></select>showed<input type="text" id="GasResult" size="50" placeholder="e.g. profound metabolic acidosis with respiratory compensation">(pH/pCO2/pO2/HCO3/BE: <input type="text" id="GasData" size="18" placeholder="7.40/40/95/24/0">)<p>.</p><button onclick="GasInt()" id="GasInt">AutoInterpret</button>
 </div>
 <!--Lab data showed...-->
 <div id="divLab">
@@ -94,7 +94,7 @@ input, p{
 </div>
 <!--EKG showed...-->
 <div id="divEKG">
-<button onclick="EKGRoutine()" id="EKGRoutine">Generate Routine EKG report on</button><input type="text" size=15 id="DateEKG" placeholder="e.g. 2019/02/08">
+<button onclick="EKGRoutine()" id="EKGRoutine">Generate Routine EKG report on</button><input type="text" size="15" id="DateEKG" placeholder="e.g. 2019/02/08">
 
 <button onclick="EKG()" id="EKG">EKG showed </button>
 <input type="text" id="EKGResult" size="50" placeholder="e.g. ST-elevation over II, III, aVF.">
@@ -154,7 +154,7 @@ input, p{
 </div>
 <div id="divImp">
 <!--Under the impression of...-->
-<button onclick="Imp()" id="Imp">Under the impression of </button><input type="text" size="30" id="impression"><p>, </p><select id=heShe2><option value="he ">he</option><option value="she ">she</option></select><p>was admitted to</p><input type="text" size="10" id="unit"><p>for further management.</p>
+<button onclick="Imp()" id="Imp">Under the impression of </button><input type="text" size="30" id="impression"><p>, </p><select id="heShe2"><option value="he ">he</option><option value="she ">she</option></select><p>was admitted to</p><input type="text" size="10" id="unit"><p>for further management.</p>
 </div>
 <div id="divClear">
 <!--clear button-->
