@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html><head><style>
 html, body {
     padding: 5px;
