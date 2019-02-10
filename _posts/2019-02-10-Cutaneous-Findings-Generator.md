@@ -1,12 +1,4 @@
-<html>
-   <head>
-      <style>
-    body {
-    }
-    h1  {
-    }
-    p  {
-    }
+<head><style>
     #display {
       background-color: white;
       align: center;
@@ -74,16 +66,9 @@
     }
    </style>
    </head>
-   <body>
-   	  <h1>Cutaneous Findings Generator</h1>
+   	  <h3>Check original codes <a href="https://github.com/jrchang612/Cutaneous-findings-generator/blob/master/Cutaneous%20findings%20generator.html">here</a>.</h3>
       <form name="CFgenerator">
-         <table id =”display”>
-            <tr>
-               <td colspan="10">
-                  <textarea rows="4" cols="100" name="display" id="display"></textarea>
-               </td>
-            </tr>
-         </table>
+      <textarea rows="4" cols="100" name="display" id="display"></textarea>
          <table id ="basic">
             <tr>
                <td><input type="button" name="is" value="There is " onclick="CFgenerator.display.value += 'There is '"></td>
@@ -205,8 +190,8 @@
                <td><input type="button" name="stony" value="stony" onclick="CFgenerator.display.value += 'stony '"></td>
                <td><input type="button" name="fragile" value="fragile" onclick="CFgenerator.display.value += 'fragile '"></td>
                <td><input type="button" name="fluctuant" value="fluctuant" onclick="CFgenerator.display.value += 'fluctuant '"></td>
-            <tr>
             </tr>
+            <tr>
                <td><input type="button" name="flaccid" value="flaccid" onclick="CFgenerator.display.value += 'flaccid '"></td>
                <td><input type="button" name="tense" value="tense" onclick="CFgenerator.display.value += 'tense '"></td>
                <td><input type="button" name="excoriated" value="excoriated" onclick="CFgenerator.display.value += 'excoriated '"></td>
@@ -227,16 +212,16 @@
                <td><input type="button" name="indurative" value="indurative" onclick="CFgenerator.display.value += 'indurative '"></td>
                <td><input type="button" name="infiltrative" value="infiltrative" onclick="CFgenerator.display.value += 'infiltrative '"></td>
                <td><input type="button" name="atrophic" value="atrophic" onclick="CFgenerator.display.value += 'atrophic '"></td>
-               <td><input type="button" name="shiny" value="shiny" onclick="CFgenerator.display.value += 'shiny '"></td>
-               <td><input type="button" name="oily" value="oily" onclick="CFgenerator.display.value += 'oily '"></td>
-               <td><input type="button" name="with telangiectasia" value="with telangiectasia" onclick="CFgenerator.display.value += 'with telangiectasia '"></td>   
-            </tr>
-            <tr>
-               <td><input type="button" name="umbilicated" value="umbilicated" onclick="CFgenerator.display.value += 'umbilicated '"></td>
-               <td><input type="button" name="rough" value="rough" onclick="CFgenerator.display.value += 'rough '"></td>
-               <td><input type="button" name="smooth" value="smooth" onclick="CFgenerator.display.value += 'smooth '"></td>
-               <td><input type="button" name="polypoid" value="polypoid" onclick="CFgenerator.display.value += 'polypoid '"></td>
-            </tr>
+<td><input type="button" name="shiny" value="shiny" onclick="CFgenerator.display.value += 'shiny '"></td>
+<td><input type="button" name="oily" value="oily" onclick="CFgenerator.display.value += 'oily '"></td>
+<td><input type="button" name="with telangiectasia" value="with telangiectasia" onclick="CFgenerator.display.value += 'with telangiectasia '"></td>   
+</tr>
+<tr>
+<td><input type="button" name="umbilicated" value="umbilicated" onclick="CFgenerator.display.value += 'umbilicated '"></td>
+<td><input type="button" name="rough" value="rough" onclick="CFgenerator.display.value += 'rough '"></td>
+<td><input type="button" name="smooth" value="smooth" onclick="CFgenerator.display.value += 'smooth '"></td>
+<td><input type="button" name="polypoid" value="polypoid" onclick="CFgenerator.display.value += 'polypoid '"></td>
+</tr>
          </table>
          <table id="body">
             <tr>
@@ -251,6 +236,7 @@
                <td><input type="button" name="plaque" value="plaque" onclick="CFgenerator.display.value += 'plaque '"></td>
                <td><input type="button" name="subcutaneous mass" value="subcutaneous mass" onclick="CFgenerator.display.value += 'subcutaneous mass '"></td>
             </tr>
+            <tr>
                <td><input type="button" name="petechiae" value="petechiae" onclick="CFgenerator.display.value += 'petechiae '"></td>
                <td><input type="button" name="purpura" value="purpura" onclick="CFgenerator.display.value += 'purpura '"></td>
                <td><input type="button" name="ecchymosis" value="ecchymosis" onclick="CFgenerator.display.value += 'ecchymosis '"></td>
@@ -367,5 +353,3 @@
       <h5>Developed by jrchang612 in NTUH, Taiwan</h5>
       <h5>Materials partly offered by Dermatology Department, NTUH</h5>
       <h5>Feb. 2019. Ver. 1</h5>
-   </body>
-</html>
