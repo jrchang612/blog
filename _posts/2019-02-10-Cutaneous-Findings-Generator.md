@@ -357,5 +357,6 @@
       <h5>Developed by jrchang612 in NTUH, Taiwan</h5>
       <h5>Materials partly offered by Dermatology Department, NTUH</h5>
       <h5>Feb. 2019. Ver. 1</h5>
+      <div><img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits"></div>
    </body>
 </html>
