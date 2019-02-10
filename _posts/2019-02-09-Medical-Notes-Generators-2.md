@@ -486,6 +486,16 @@ function ABG(){
   var par7 = (par1+par2+par3+par4+par5+par6)
   display.value += par7
 }
+function Img(){
+  var par1 = document.getElementById("ImgMod").value
+  var par2 = document.getElementById("otherMod").value
+  var par3 = " on "
+  var par4 = document.getElementById("ImgDate").value
+  var par5 = " showed "
+  var par6 = document.getElementById("ImgResult").value
+  var par7 = par1+par2+par3+par4+par5+par6
+  display.value+=par7
+}
 function GasInt(){
   var Data = document.getElementById("GasData").value
   var [pH,pCO2,pO2,HCO3,BE] = Data.split("/");
