@@ -391,13 +391,13 @@ function sex(){
   }
 }
 function UnderlyingBox(){
-  var div1 = document.getElementById("div1")
+  var divThisIs = document.getElementById("divThisIs")
   if (document.getElementById("underlying").value == "history of:"){
   var tbx = document.createElement("textarea");
   tbx.id = "HxBox"
   tbx.rows="5"
   tbx.cols="30"
-  div1.appendChild(tbx);
+  divThisIs.appendChild(tbx);
   }
   if (document.getElementById("underlying").value == "no known underlying disease. "){
   var tbx = document.getElementById("HxBox");
