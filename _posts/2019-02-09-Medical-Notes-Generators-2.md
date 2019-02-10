@@ -599,10 +599,10 @@ function CXRRoutine(){
   display.value += par5
 }
 function DeathDNRRoutine(){
-    var par1 = "I was called at due to pulselessness. DNR status was confirmed.\n\n Upon arrival, the patient was not responsive, had no heart beat nor spontaneous breathing. Bilateral pupils showed no light reflex. EKG showed asystole. The patient expired on "
+    var par1 = "I was called due to pulselessness. DNR status was confirmed.\n\nUpon arrival, the patient was not responsive, had no heart beat nor spontaneous breathing. Bilateral pupils showed no light reflex. EKG showed asystole. The patient expired on "
     var par2 = document.getElementById("DateDeathDNR").value
     var par3 = ". "
-    var par4 = par1+par2+par3+par4
+    var par4 = par1+par2+par3
     display.value += par4
 }
 function ExtubationRoutine(){
@@ -612,7 +612,7 @@ function ExtubationRoutine(){
     var par4 = document.getElementById("M").value
     var par5 = "VT. Weaning parameters were acceptable. The patient was extubated smoothly on "
     var par6 = document.getElementById("DateEXT").value
-    var par7 = ".\n\n After extubation, no stridor nor wheezing were noted. The patient’s saturation level was 100%."
+    var par7 = ".\n\nAfter extubation, no stridor nor wheezing were noted. The patient’s saturation level was 100%."
     var par8 = par1+par2+par3+par4+par5+par6+par7
     display.value += par8
 }
