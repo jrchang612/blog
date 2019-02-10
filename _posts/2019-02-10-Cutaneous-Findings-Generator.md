@@ -1,4 +1,4 @@
-<head><style>
+<html><head><style>
     #display {
       background-color: white;
       align: center;
@@ -66,6 +66,7 @@
     }
    </style>
    </head>
+   <body>
    	  <h3>Check original codes <a href="https://github.com/jrchang612/Cutaneous-findings-generator/blob/master/Cutaneous%20findings%20generator.html">here</a>.</h3>
       <form name="CFgenerator">
       <textarea rows="4" cols="100" name="display" id="display"></textarea>
@@ -353,3 +354,4 @@
       <h5>Developed by jrchang612 in NTUH, Taiwan</h5>
       <h5>Materials partly offered by Dermatology Department, NTUH</h5>
       <h5>Feb. 2019. Ver. 1</h5>
+</body></html>
