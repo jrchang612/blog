@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html><head><style>
 html, body {
     padding: 5px;
@@ -150,7 +149,7 @@ input, p{
 <input type="button" name="2-II AVB" value="2-II AVB" onclick="EKGResult.value += 'Mobitz type II 2nd degree AV block'">
 <input type="button" name="H-AVB" value="H-AVB" onclick="EKGResult.value += 'high-grade AV block'">
 <input type="button" name="3AVB" value="3AVB" onclick="EKGResult.value += '3rd degree AV block'">
-<input type="button" name="SB" value="SB" onclick="EKGResult.value += 'sinus bradycardia'"></td>
+<input type="button" name="SB" value="SB" onclick="EKGResult.value += 'sinus bradycardia'">
 <input type="button" name="JB" value="JB" onclick="EKGResult.value += 'junctional bradycardia'">
 <input type="button" name="JT" value="JT" onclick="EKGResult.value += 'junctional tachycardia'">
 <input type="button" name="VT(+)" value="VT(+)" onclick="EKGResult.value += 'VT with pulses'">
@@ -207,24 +206,17 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 </select>
 <input type="text" id="otherMod" size="25" placeholder="Other(left blank if not needed)"><p>on</p><input type="text" id="ImgDate" size="15" placeholder="e.g. 2019/02/19"><button onclick="Img()" id="Img">showed</button>
 <input type="text" id="ImgResult" size="60" placeholder="e.g. bilateral increased infiltration.">
-<table>
-<tr>
-<td><input type="button" name="PNA" value="pneumonia" onclick="ImgResult.value += 'pneumonia patch'"></td>
-<td><input type="button" name="tumor" value="tumor" onclick="ImgResult.value += 'a tumor'"></td>
-<td><input type="button" name="no ICH" value="no ICH" onclick="ImgResult.value += 'no ICH/SAH/SDH/EDH'"></td>
-<td><input type="button" name="no free air" value="no free air" onclick="ImgResult.value += 'no free air'"></td>
-<td><input type="button" name="cardiomegaly" value="cardiomegaly" onclick="ImgResult.value += 'cardiomegaly'"></td>
-<td><input type="button" name="bilateral increased infiltration" value="bil. inc. infiltration" onclick="ImgResult.value += 'bilateral increased infiltration'"></td>
-</tr>
-<tr>
-<td><input type="button" name="on" value="on" onclick="ImgResult.value += (' on ' + PNALoc.value)"></td>
-<td><select id="PNALoc"><option value="LUL">LUL</option><option value="LLL">LLL</option><option value="RUL">RUL</option><option value="RML">RML</option><option value="RLL">RLL</option></td>
-<td><input type="button" name=", " value=", " onclick="ImgResult.value += ', '"></td>
-<td><input type="button" name=", and " value=", and " onclick="ImgResult.value += ', and '"></td>
-<td><input type="button" name=". " value=". " onclick="ImgResult.value += '. '"></td>
-</tr>
-</table>
-</div>
+<input type="button" name="PNA" value="pneumonia" onclick="ImgResult.value += 'pneumonia patch'">
+<input type="button" name="tumor" value="tumor" onclick="ImgResult.value += 'a tumor'">
+<input type="button" name="no ICH" value="no ICH" onclick="ImgResult.value += 'no ICH/SAH/SDH/EDH'">
+<input type="button" name="no free air" value="no free air" onclick="ImgResult.value += 'no free air'">
+<input type="button" name="cardiomegaly" value="cardiomegaly" onclick="ImgResult.value += 'cardiomegaly'">
+<input type="button" name="bilateral increased infiltration" value="bil. inc. infiltration" onclick="ImgResult.value += 'bilateral increased infiltration'">
+<input type="button" name="on" value="on" onclick="ImgResult.value += (' on ' + PNALoc.value)">
+<select id="PNALoc"><option value="LUL">LUL</option><option value="LLL">LLL</option><option value="RUL">RUL</option><option value="RML">RML</option><option value="RLL">RLL</option></select>
+<input type="button" name=", " value=", " onclick="ImgResult.value += ', '">
+<input type="button" name=", and " value=", and " onclick="ImgResult.value += ', and '">
+<input type="button" name=". " value=". " onclick="ImgResult.value += '. '"></div>
 <!--Under the impression of...-->
 <div id="divImp">
 <button onclick="Imp()" id="Imp">Under the impression of </button><input type="text" size="30" id="impression"><p>, </p><select id="heShe2"><option value="he ">he</option><option value="she ">she</option></select><p>was admitted to</p><input type="text" size="10" id="unit"><p>on</p><input type="text" size="15" id="dateAdmit" placeholder="e.g. 2019/02/09"><select id="manage"><option value="for further management. ">for further management.</option><option value="for further evaluations and management. ">for further evaluations and management.</option><option value="for surgical management. ">for surgical management.</option><option value="for scheduled chemotherapy. ">for scheduled chemotherapy.</option><option value="for scheduled target therapy. ">for scheduled target therapy.</option><option value="for Rituximab. ">for Rituximab.</option></select>
@@ -240,7 +232,7 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 </div>
 <!--what was Done-->
 <div id="divDone">
-<input type="text" id="WWD" size="40" placeholder = "e.g. LUL lobectomy"><button onclick="Done()" id="Done">was done on</button></p><input type="text" id="DateDone" size="20" placeholder="e.g. 2019/02/20"><select id="tolerate"><option value=". ">. </option><option value=", and he tolerated the procedure well. ">, and he tolerated the procedure well.</option><option value=", and she tolerated the procedure well. ">, and she tolerated the procedure well.</option></select>
+<input type="text" id="WWD" size="40" placeholder = "e.g. LUL lobectomy"><button onclick="Done()" id="Done">was done on</button><input type="text" id="DateDone" size="20" placeholder="e.g. 2019/02/20"><select id="tolerate"><option value=". ">. </option><option value=", and he tolerated the procedure well. ">, and he tolerated the procedure well.</option><option value=", and she tolerated the procedure well. ">, and she tolerated the procedure well.</option></select>
 </div>
 <!--His/Her condition was ... since then-->
 <div id="divCond">
