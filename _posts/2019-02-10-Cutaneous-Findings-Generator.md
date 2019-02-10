@@ -331,7 +331,6 @@
             <tr>
                <td><input type="button" name="with fissures" value="with fissures" onclick="CFgenerator.display.value += 'with fissures '"></td>
                <td><input type="button" name="on extensor sides" value="on extensor sides" onclick="CFgenerator.display.value += 'on extensor sides '"></td>
-               
                <td><input type="button" name="with mucosal involvement" value="with mucosal involvement" onclick="CFgenerator.display.value += 'with mucosal involvement '"></td>
                <td><input type="button" name="with umbilical sparing" value="with umbilical sparing" onclick="CFgenerator.display.value += 'with umbilical sparing '"></td>
                <td><input type="button" name="sparing nasolabial folds" value="sparing nasolabial folds" onclick="CFgenerator.display.value += 'sparing nasolabial folds '"></td>
@@ -349,7 +348,8 @@
                <td><input type="button" id="clear" name="clear" value="c" onclick="CFgenerator.display.value = ''"></td>
             </tr>
          </table>
-      </form>
+      </form><br>
+      <img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
       <h5>Developed by jrchang612 in NTUH, Taiwan</h5>
       <h5>Materials partly offered by Dermatology Department, NTUH</h5>
       <h5>Feb. 2019. Ver. 1</h5>
