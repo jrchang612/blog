@@ -667,6 +667,4 @@ function DC(){
     var par6 = par1+par2+par3+par4+par5
     display.value += par6
 }
-</script>
-</body>
-</html>
+</script></body></html>
