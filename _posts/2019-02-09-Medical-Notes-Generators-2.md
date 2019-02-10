@@ -1,4 +1,4 @@
-<html><head><style>
+<head><style>
 html, body {
     padding: 5px;
 }
@@ -74,14 +74,12 @@ input, p{
    background-color: #6c7a89
 }
 </style></head>
-<body>
 <div id="divDisplay">
-    <h1>Medical Notes Generator</h1>
-    <h3>make physicians' lives easier...</h3>
+    <h3>Check original codes <a href="https://github.com/jrchang612/Medical-Note-Generator-2/blob/master/Medical%20Notes%20Generator%202.html">here</a>.</h3>
     <form name="MNgenerator">
     <textarea rows="20" cols="90" name="display" id="display"></textarea>
     </form>
-</div><p>
+</div>
 <!--This is a ...-->
 <div id="divThisIs">
 <button onclick="ThisIs()" id="ThisIs">This is</button><p>a</p><input type="text" id="age" placeholder="e.g. 35y/o"><select id="gender" onchange="sex()"><option value=" man ">man</option><option value=" woman ">woman</option></select><p>with</p><select id="underlying" onchange="UnderlyingBox()"><option value="no known underlying disease. ">no known underlying disease.</option><option value="history of:">history of:</option></select></div>
@@ -667,4 +665,4 @@ function DC(){
     var par6 = par1+par2+par3+par4+par5
     display.value += par6
 }
-</script></body></html>
+</script>
