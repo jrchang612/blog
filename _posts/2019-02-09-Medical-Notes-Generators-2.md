@@ -76,7 +76,7 @@ input, p{
 </style></head>
 <div id="divDisplay">
     <h6>Check original codes <a href="https://github.com/jrchang612/Medical-Note-Generator-2/blob/master/Medical%20Notes%20Generator%202.html">here</a>.</h6>
-    <h6>This work is protected under GNU General Public License v2.0</h6>
+    <h6>This work is protected under GNU General Public License v3.0</h6>
     <form name="MNgenerator">
     <textarea rows="20" cols="90" name="display" id="display"></textarea>
     </form>
