@@ -372,6 +372,9 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 <div id="divClear">
 <input type="button" id="clear" name="clear" value="CLEAR" onclick="MNgenerator.display.value = ''">
 </div>
+<div>
+<img src="https://hitcounter.pythonanywhere.com/count/tag.svg" alt="Hits">
+</div>
 <script>
 count = 0
 var display = document.getElementById("display")
