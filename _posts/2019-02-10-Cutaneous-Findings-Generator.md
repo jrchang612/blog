@@ -70,7 +70,7 @@
    </head>
    <body>
    	  <h3>Check original codes <a href="https://github.com/jrchang612/Cutaneous-findings-generator/blob/master/Cutaneous%20findings%20generator.html">here</a>.</h3>
-        <h6>This work is protected under a CC BY-NC-SA license.</h6>
+        <h6>This work is protected under GNU General Public License v2.0</h6>
       <form name="CFgenerator">
          <textarea rows="4" cols="100" name="display" id="display"></textarea>
          <table id ="basic">
