@@ -433,7 +433,7 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 		<div id="collapse15" class="panel-collapse collapse">
 			<div class="panel-body" id="divAnti">
 <input type="button" name="AntiSent" value="Add Sentence" onclick="MNgenerator.display.value += Anti.value"><br><textarea cols="80" rows="3" id="Anti"></textarea><br>
-<input type="button" name="Septic workup was done" value="Septic workup was done" onclick="Anti.value += 'Septic workup was done'">
+<input type="button" name="Septic workup was done" value="Septic workup was done" onclick="Anti.value += 'Septic workup was done'"><br>
 <input type="button" name="BCx" value="BCx" onclick="Anti.value += 'Blood culture on '">
 <input type="button" name="UCx" value="UCx" onclick="Anti.value += 'Urine culture on '">
 <input type="button" name="SCx" value="SCx" onclick="Anti.value += 'Sputum culture on '">
@@ -460,8 +460,8 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 <input type="button" name="antibiotics was shifted from " value="antibiotics was shifted from" onclick="Anti.value += 'antibiotics was shifted from '">
 <input type="button" name="to" value="to" onclick="Anti.value += ' to '">
 <input type="button" name="antibiotics was downgraded from " value="antibiotics was downgraded from" onclick="Anti.value += 'antibiotics was downgraded from '">
-<input type="button" name="was given " value="was given. " onclick="Anti.value += ' was given '">
-<input type="button" name="was discontinued " value="was DC. " onclick="Anti.value += ' was discontinued '"><br>
+<input type="button" name="was given " value="was given " onclick="Anti.value += ' was given '">
+<input type="button" name="was discontinued " value="was DC " onclick="Anti.value += ' was discontinued '">
 <input type="button" name="after completing a *-day course. " value="after completing a *-day course. " onclick="Anti.value += 'after completing a *-day course. '">
 <input type="button" name="due to lack of culture evidence. " value="due to lack of culture evidence. " onclick="Anti.value += 'due to lack of culture evidence. '">
 <input type="button" name="empirically. " value="empirically. " onclick="Anti.value += 'empirically. '">
@@ -479,7 +479,7 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 <input type="button" name="Cefa" value="Cefa" onclick="Anti.value += 'Cefa'">
 <input type="button" name="Furoxime" value="Furoxime" onclick="Anti.value += 'Furoxime'">
 <input type="button" name="Cetazone" value="Cetazone" onclick="Anti.value += 'Cetazone'">
-<input type="button" name="Cexitin" value="Cexitin" onclick="Anti.value += 'Cexitin'"><br>
+<input type="button" name="Cexitin" value="Cexitin" onclick="Anti.value += 'Cexitin'">
 <input type="button" name="Rocephin" value="Rocephin" onclick="Anti.value += 'Rocephin'">
 <input type="button" name="Claforan" value="Claforan" onclick="Anti.value += 'Claforan'">
 <input type="button" name="Fortum" value="Fortum" onclick="Anti.value += 'Fortum'">
@@ -489,7 +489,7 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 <input type="button" name="Maxipime" value="Maxipime" onclick="Anti.value += 'Maxipime'">
 <input type="button" name="Invanz" value="Invanz" onclick="Anti.value += 'Invanz'">
 <input type="button" name="Tienam" value="Tienam" onclick="Anti.value += 'Tienam'">
-<input type="button" name="Mepem" value="Mepem" onclick="Anti.value += 'Mepem'"><br>
+<input type="button" name="Mepem" value="Mepem" onclick="Anti.value += 'Mepem'">
 <input type="button" name="Finibax" value="Finibax" onclick="Anti.value += 'Finibax'">
 <input type="button" name="Genta" value="Genta" onclick="Anti.value += 'gentamicin'">
 <input type="button" name="Amikacin" value="Amikacin" onclick="Anti.value += 'amikacin'">
@@ -498,7 +498,7 @@ onclick="EKGResult.value += ' with right atrial enlargement'">
 <input type="button" name="Avelox" value="Avelox" onclick="Anti.value += 'Avelox'">
 <input type="button" name="Zithromax" value="Zithromax" onclick="Anti.value += 'Zithromax'">
 <input type="button" name="doxycycline" value="doxycycline" onclick="Anti.value += 'doxycycline'">
-<input type="button" name="Tygacil" value="Tygacil" onclick="Anti.value += 'Tygacil'"><br>
+<input type="button" name="Tygacil" value="Tygacil" onclick="Anti.value += 'Tygacil'">
 <input type="button" name="Vancomycin" value="Vanco" onclick="Anti.value += 'Vancomycin'">
 <input type="button" name="Targocid" value="Targocid" onclick="Anti.value += 'Targocid'">
 <input type="button" name="Zyvox" value="Zyvox" onclick="Anti.value += 'Zyvox'">
