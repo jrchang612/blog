@@ -274,7 +274,7 @@
                <td><input type="button" name="right" value="right" onclick="CFgenerator.display.value += 'right '"></td>
                <td><input type="button" name="both" value="both" onclick="CFgenerator.display.value += 'both '"></td>
                <td><input type="button" name="bilateral" value="bilateral" onclick="CFgenerator.display.value += 'bilateral '"></td>
-               <td><input type="button" name="back" value="back" onclick="CFgenerator.display.value += 'back '"></td>
+               <td><input type="button" name="back" value="back" onclick="CFgenerator.display.value += 'back. '"></td>
             </tr>
             <tr>
                <td><input type="button" name="face" value="face" onclick="CFgenerator.display.value += 'face.'"></td>
